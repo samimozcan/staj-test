@@ -1,0 +1,14 @@
+{
+  "name": "staj-test",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A test project",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -20,3 +20,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hello World!"
+
+  test:
+    runs-on: node:20
+    steps:
+      - run: echo "This is a test job running on Node.js 20"
+      - run: node --version
+      - run: node test.js
+      - run: echo "Test job completed successfully"
